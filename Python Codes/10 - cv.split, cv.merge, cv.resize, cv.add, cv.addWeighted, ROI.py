@@ -1,7 +1,7 @@
 import cv2
 
-img = cv2.imread('../Images/messi5.jpg')
-img2 = cv2.imread('../Images/opencv-logo.png')
+img = cv2.imread('../Images & Videos/messi5.jpg')
+img2 = cv2.imread('../Images & Videos/opencv-logo.png')
 print(img.shape)
 
 print(img.size)

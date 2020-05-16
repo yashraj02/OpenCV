@@ -17,7 +17,7 @@ cv.namedWindow('track')
 cv.createTrackbar('track1', 'track', 0, 500, nothing)
 cv.createTrackbar('track2', 'track', 0, 500, nothing)
 
-img = cv.imread('../Images/messi5.jpg', 0)
+img = cv.imread('../Images & Videos/messi5.jpg', 0)
 
 while True:
     t1 = cv.getTrackbarPos('track1', 'track')

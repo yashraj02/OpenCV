@@ -6,7 +6,7 @@
 
 import cv2 as cv
 
-img = cv.imread('../Images/opencv-logo.png')
+img = cv.imread('../Images & Videos/opencv-logo.png')
 img2 = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 # finding threshold
 ret, threshold = cv.threshold(img2, 127, 255, 0)

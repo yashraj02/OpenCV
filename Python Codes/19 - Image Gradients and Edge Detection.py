@@ -6,7 +6,7 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv.imread('../Images/sudoku.png', 0)
+img = cv.imread('../Images & Videos/sudoku.png', 0)
 
 laplacian = cv.Laplacian(img, cv.CV_64F, ksize=3)
 laplacian = np.uint8(np.absolute((laplacian)))

@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv.imread('../Images/smarties.png', 0)
+img = cv.imread('../Images & Videos/smarties.png', 0)
 img = cv.cvtColor(img, cv.COLOR_BGR2RGB)
 
 _, mask = cv.threshold(img, 200, 255, cv.THRESH_TOZERO_INV)

@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # img = np.zeros([512, 512, 3], np.uint8)
-img = cv2.imread('../Images/lena.jpg')
+img = cv2.imread('../Images & Videos/lena.jpg')
 color = np.zeros([512, 512, 3], np.uint8)
 
 event = [i for i in dir(cv2) if 'EVENT' in i]
