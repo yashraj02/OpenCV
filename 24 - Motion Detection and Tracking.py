@@ -21,17 +21,16 @@ while cap.isOpened():
     contours, _ = cv.findContours(dilate, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
 
     for contour in contours:
-        print(1)
         (x, y, w, h) = cv.boundingRect(contour)
         if cv.contourArea(contour) < 700:
             continue
         cv.rectangle(frame1, (x, y), (x + w, y + h), (0, 255, 0), 2)
         cv.putText(frame1, 'Status: Movement', (10, 20), cv.FONT_HERSHEY_COMPLEX, 5, (0, 255, 0), 3)
         cv.imshow('1', frame1)
+        if (cv.waitKey(40) & 0xFF) == 27:
+            break
         frame1 = frame2
         rec, frame2 = cap.read()
-    if (cv.waitKey(40) & 0xFF) == 27:
-        break
 
 cv.destroyAllWindows()
 cap.release()
