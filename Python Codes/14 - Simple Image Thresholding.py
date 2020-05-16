@@ -1,7 +1,7 @@
 # THRESHOLD
 import cv2 as cv
 
-img = cv.imread('gradient.png')
+img = cv.imread('../Images/gradient.png')
 
 _, img2 = cv.threshold(img, 117, 255, cv.THRESH_BINARY)
 _, img3 = cv.threshold(img, 117, 255, cv.THRESH_BINARY_INV)

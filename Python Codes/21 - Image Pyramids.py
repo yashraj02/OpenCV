@@ -6,7 +6,7 @@
 
 import cv2
 
-img = cv2.imread("lena.jpg")
+img = cv2.imread("../Images/lena.jpg")
 layer = img.copy()
 gaussian_pyramid_list = [layer]
 

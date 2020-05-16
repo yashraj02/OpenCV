@@ -10,7 +10,7 @@ cv2.createTrackbar('num', 'image', 0, 500, do_this)
 cv2.createTrackbar('grey_scale', 'image', 0, 1, do_this)
 
 while (1):
-    img = cv2.imread('lena.jpg')
+    img = cv2.imread('../Images/lena.jpg')
     pos = cv2.getTrackbarPos('num', 'image')
     font = cv2.FONT_HERSHEY_COMPLEX
     cv2.putText(img, str(pos), (100, 100), font, 2, (0, 255, 0), 2)

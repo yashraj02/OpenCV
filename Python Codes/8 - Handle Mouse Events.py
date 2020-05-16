@@ -1,7 +1,7 @@
 import cv2
 
 # img = np.zeros([512, 512, 3], np.uint8)
-img = cv2.imread('lena.jpg')
+img = cv2.imread('../Images/lena.jpg')
 
 event = [i for i in dir(cv2) if 'EVENT' in i]
 print(event)

@@ -10,7 +10,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # img = cv.imread('Half')
-img = cv.imread('water.jfif')
+img = cv.imread('../Images/water.jfif')
 # img = cv.imread('lena.jpg')
 # img = cv.cvtColor(img,cv.COLOR_BGR2RGB)
 

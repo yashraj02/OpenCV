@@ -7,8 +7,8 @@
 import cv2 as cv
 import numpy as np
 
-apple = cv.imread('apple.jpg')
-orange = cv.imread('orange.jpg')
+apple = cv.imread('../Images/apple.jpg')
+orange = cv.imread('../Images/orange.jpg')
 
 print(apple.shape)
 print(orange.shape)
