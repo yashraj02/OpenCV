@@ -4,10 +4,8 @@ import numpy as np
 img = cv.imread('../Images & Videos/sudoku.png')
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
-
 def dothis(x):
     pass
-
 
 cv.namedWindow('trackbar')
 # cv.createTrackbar('track1','trackbar',0,255,dothis)
