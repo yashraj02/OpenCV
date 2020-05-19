@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/OpenCv.iml" filepath="$PROJECT_DIR$/.idea/OpenCv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Road-Lane-Line-Detection/.idea/Road-Lane-Line-Detection.iml" filepath="$PROJECT_DIR$/../Road-Lane-Line-Detection/.idea/Road-Lane-Line-Detection.iml" />
     </modules>
   </component>
 </project>

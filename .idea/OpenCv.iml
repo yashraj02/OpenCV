@@ -6,5 +6,6 @@
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7 (OpenCv)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Road-Lane-Line-Detection" />
   </component>
 </module>
