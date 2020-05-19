@@ -9,7 +9,7 @@
 
 import cv2 as cv
 
-cap = cv.VideoCapture('vtest.avi')
+cap = cv.VideoCapture('../Images & Videos/vtest.avi')
 ret, frame1 = cap.read()
 ret, frame2 = cap.read()
 while cap.isOpened():
