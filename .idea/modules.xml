@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Detect Cirlces/.idea/Detect Cirlces.iml" filepath="$PROJECT_DIR$/../Detect Cirlces/.idea/Detect Cirlces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Face Detection/.idea/Face Detection.iml" filepath="$PROJECT_DIR$/../Face Detection/.idea/Face Detection.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Motion Detection/.idea/Motion Detection.iml" filepath="$PROJECT_DIR$/../Motion Detection/.idea/Motion Detection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/OpenCv.iml" filepath="$PROJECT_DIR$/.idea/OpenCv.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Road-Lane-Line-Detection/.idea/Road-Lane-Line-Detection.iml" filepath="$PROJECT_DIR$/../Road-Lane-Line-Detection/.idea/Road-Lane-Line-Detection.iml" />

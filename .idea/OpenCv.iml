@@ -8,5 +8,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Road-Lane-Line-Detection" />
     <orderEntry type="module" module-name="Motion Detection" />
+    <orderEntry type="module" module-name="Detect Cirlces" />
+    <orderEntry type="module" module-name="Face Detection" />
   </component>
 </module>
