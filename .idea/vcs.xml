@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../Detect Cirlces" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Eye Detection" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Face Detection" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Motion Detection" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />

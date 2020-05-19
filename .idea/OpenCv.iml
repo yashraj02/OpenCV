@@ -10,5 +10,6 @@
     <orderEntry type="module" module-name="Motion Detection" />
     <orderEntry type="module" module-name="Detect Cirlces" />
     <orderEntry type="module" module-name="Face Detection" />
+    <orderEntry type="module" module-name="Eye Detection" />
   </component>
 </module>
