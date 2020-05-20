@@ -20,7 +20,24 @@ Open CV.
     -Standard : HoughLines method
     -Probabilistic : HoughLinesP method
     Tip: If you establish a higher threshold, fewer lines will be detected (since you will need more points to declare a line detected).
+    
+    -Filter2D()
+        The operation works like this: keep this kernel above a pixel, add all the 25 pixels below this kernel, take the average, and           replace the central pixel with the new average value. This operation is continued for all the pixels in the image. Try this code         and check the result:
 
 Tip: In matplot lib when an image is shown the axis goes from "0 to highest value horizontally(x-axis)" & "highest to 0 vertically(y-axis)"
 
 Tip: The Bitwise operations should be applied on input images of same dimensions
+
+Color Spaces : 
+BGR
+HSV - Cylindrical. Hue Saturation Value(0:179,0:255,0:255) 
+-How to find HSV values to track?
+->  green = np.uint8([[[0,255,0 ]]])
+    hsv_green = cv.cvtColor(green,cv.COLOR_BGR2HSV)
+    print( hsv_green )
+    [[[ 60 255 255]]]
+    Now you take [H-10, 100,100] and [H+10, 255, 255] as the lower bound and upper bound respectively.
+   
+Masked image
+First create a mask by specifying a "region of interest" i.e part of the image you want to be shown and assign it 255 (white color).
+Then using the "bitwiseAnd" pass the "image & mask" to the function to derive masked image. Else everything will be black.
