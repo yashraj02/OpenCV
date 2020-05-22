@@ -6,6 +6,7 @@
     <mapping directory="$PROJECT_DIR$/../Face Detection" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Motion Detection" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Remove_Shadow" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Road-Lane-Line-Detection" vcs="Git" />
   </component>
 </project>
