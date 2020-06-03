@@ -1,34 +1,25 @@
-# import numpy as np
-# import cv2 as cv
-#
-# img = cv.imread('../Images & Videos/turtleBox3.jpeg',-1)
-# img = cv.resize(img,(300,400))
-# rgb = cv.split(img)
-# print(rgb)
-# print(img.shape)
-# cv.imshow('show',img)
-# cv.waitKey(0)
-# cv.destroyAllWindows()
+import cv2 as cv
 
-# import cv2
-# import numpy as np
-# new = []
-# image = cv2.imread("../Images & Videos/shadowed_paper.jpg", 0)
-# if sum(image[0]) / len(image[0]) < 200:
-#     new = np.where((255 - image) < image, 255, image * 2)
-# else:
-#     new = image
-# cv2.imshow('show',image)
-# cv2.waitKey(0)
-# cv2.destroyAllWindows()
 
-import cv2
+def empty(x):
+    pass
 
-new = []
-image = cv2.imread("../Images & Videos/Heart_10x10.png")
-r, g, b = cv2.split(image)
-print(image.shape)
-print(image[0][0])
-cv2.imshow('show', image)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+
+cv.namedWindow("Parameters")
+cv.resizeWindow("Parameters", 300, 100)
+cv.createTrackbar("Threshold1", "Parameters", 23, 255, empty)
+cv.createTrackbar("Threshold2", "Parameters", 20, 255, empty)
+
+img = cv.imread('../Images & Videos/turtleBox3.jpeg')
+img = cv.resize(img, (400, 600))
+gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+blur = cv.GaussianBlur(gray, (5, 5), 0)
+
+while True:
+    t1 = cv.getTrackbarPos('Threshold1', 'Parameters')
+    t2 = cv.getTrackbarPos('Threshold2', 'Parameters')
+    canny = cv.Canny(blur, t1, t2)
+    # dilate = cv.dilate(blur,kernel = (5,5),iterations=20)
+    cv.imshow('show', canny)
+    cv.waitKey(1)
+cv.destroyAllWindows()
