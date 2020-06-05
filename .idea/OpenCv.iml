@@ -12,5 +12,6 @@
     <orderEntry type="module" module-name="Face Detection" />
     <orderEntry type="module" module-name="Eye Detection" />
     <orderEntry type="module" module-name="Remove_Shadow" />
+    <orderEntry type="module" module-name="Deep Learning using OpenCv" />
   </component>
 </module>
