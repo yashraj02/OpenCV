@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CNNN/Transfer_Learning/.idea/CNN.iml" filepath="$PROJECT_DIR$/../CNNN/Transfer_Learning/.idea/CNN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CNNN/.idea/CNNN.iml" filepath="$PROJECT_DIR$/../CNNN/.idea/CNNN.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Count_Fingers_(Capstone-Project)/.idea/Count_Fingers_(Capstone-Project).iml" filepath="$PROJECT_DIR$/../Count_Fingers_(Capstone-Project)/.idea/Count_Fingers_(Capstone-Project).iml" />
       <module fileurl="file://$PROJECT_DIR$/../Deep Learning using OpenCv/.idea/Deep Learning using OpenCv.iml" filepath="$PROJECT_DIR$/../Deep Learning using OpenCv/.idea/Deep Learning using OpenCv.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Detect Cirlces/.idea/Detect Cirlces.iml" filepath="$PROJECT_DIR$/../Detect Cirlces/.idea/Detect Cirlces.iml" />

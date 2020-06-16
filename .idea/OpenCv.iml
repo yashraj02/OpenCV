@@ -14,5 +14,7 @@
     <orderEntry type="module" module-name="Remove_Shadow" />
     <orderEntry type="module" module-name="Deep Learning using OpenCv" />
     <orderEntry type="module" module-name="Count_Fingers_(Capstone-Project)" />
+    <orderEntry type="module" module-name="CNN" />
+    <orderEntry type="module" module-name="CNNN" />
   </component>
 </module>
